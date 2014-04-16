@@ -15,3 +15,10 @@
     #import <Foundation/Foundation.h>
     #import <CoreData/CoreData.h>
 #endif
+
+/** Debug log */
+#ifdef DEBUG
+#   define CDLog(error, fmt, ...) if (error) printf("💾 %s ...... \n\t\t%s[Line %d]\n",[[NSString stringWithFormat:fmt, ##__VA_ARGS__] UTF8String],__PRETTY_FUNCTION__, __LINE__);
+#else
+#   define CDLog(...)
+#endif

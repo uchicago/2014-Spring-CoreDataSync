@@ -25,6 +25,9 @@
 		3737A7AD18FBA7F600EFAABF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3737A78818FBA7F600EFAABF /* CoreData.framework */; };
 		3737A7B518FBA7F600EFAABF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3737A7B318FBA7F600EFAABF /* InfoPlist.strings */; };
 		3737A7B718FBA7F600EFAABF /* CoreDataSyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3737A7B618FBA7F600EFAABF /* CoreDataSyncTests.m */; };
+		3737A7C218FBA87800EFAABF /* StoreManagerCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 3737A7C118FBA87800EFAABF /* StoreManagerCloud.m */; };
+		37472E1718FEBF8E0012731E /* StoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37472E1618FEBF8E0012731E /* StoreManager.m */; };
+		37472E1A18FEC3740012731E /* Wishlist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37472E1818FEC3740012731E /* Wishlist.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,15 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3737A77F18FBA7F600EFAABF /* CoreDataSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3737A77F18FBA7F600EFAABF /* 2014-Spring-CoreDataSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2014-Spring-CoreDataSync.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3737A78218FBA7F600EFAABF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3737A78418FBA7F600EFAABF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3737A78618FBA7F600EFAABF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3737A78818FBA7F600EFAABF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		3737A78C18FBA7F600EFAABF /* CoreDataSync-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataSync-Info.plist"; sourceTree = "<group>"; };
+		3737A78C18FBA7F600EFAABF /* 2014-Spring-CoreDataSync-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2014-Spring-CoreDataSync-Info.plist"; sourceTree = "<group>"; };
 		3737A78E18FBA7F600EFAABF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3737A79018FBA7F600EFAABF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3737A79218FBA7F600EFAABF /* CoreDataSync-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataSync-Prefix.pch"; sourceTree = "<group>"; };
+		3737A79218FBA7F600EFAABF /* 2014-Spring-CoreDataSync-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2014-Spring-CoreDataSync-Prefix.pch"; sourceTree = "<group>"; };
 		3737A79318FBA7F600EFAABF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3737A79418FBA7F600EFAABF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3737A79718FBA7F600EFAABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,11 +59,17 @@
 		3737A79F18FBA7F600EFAABF /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		3737A7A018FBA7F600EFAABF /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		3737A7A218FBA7F600EFAABF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3737A7A818FBA7F600EFAABF /* CoreDataSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3737A7A818FBA7F600EFAABF /* 2014-Spring-CoreDataSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2014-Spring-CoreDataSyncTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3737A7A918FBA7F600EFAABF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3737A7B218FBA7F600EFAABF /* CoreDataSyncTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataSyncTests-Info.plist"; sourceTree = "<group>"; };
+		3737A7B218FBA7F600EFAABF /* 2014-Spring-CoreDataSyncTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2014-Spring-CoreDataSyncTests-Info.plist"; sourceTree = "<group>"; };
 		3737A7B418FBA7F600EFAABF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3737A7B618FBA7F600EFAABF /* CoreDataSyncTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataSyncTests.m; sourceTree = "<group>"; };
+		3737A7C018FBA87800EFAABF /* StoreManagerCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreManagerCloud.h; sourceTree = "<group>"; };
+		3737A7C118FBA87800EFAABF /* StoreManagerCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreManagerCloud.m; sourceTree = "<group>"; };
+		3737A7C318FBBBA700EFAABF /* CoreDataSync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CoreDataSync.entitlements; sourceTree = "<group>"; };
+		37472E1518FEBF8E0012731E /* StoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreManager.h; sourceTree = "<group>"; };
+		37472E1618FEBF8E0012731E /* StoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreManager.m; sourceTree = "<group>"; };
+		37472E1918FEC3740012731E /* Wishlist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wishlist.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +111,8 @@
 		3737A78018FBA7F600EFAABF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3737A77F18FBA7F600EFAABF /* CoreDataSync.app */,
-				3737A7A818FBA7F600EFAABF /* CoreDataSyncTests.xctest */,
+				3737A77F18FBA7F600EFAABF /* 2014-Spring-CoreDataSync.app */,
+				3737A7A818FBA7F600EFAABF /* 2014-Spring-CoreDataSyncTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +132,10 @@
 		3737A78A18FBA7F600EFAABF /* CoreDataSync */ = {
 			isa = PBXGroup;
 			children = (
+				3737A7C018FBA87800EFAABF /* StoreManagerCloud.h */,
+				3737A7C118FBA87800EFAABF /* StoreManagerCloud.m */,
+				37472E1518FEBF8E0012731E /* StoreManager.h */,
+				37472E1618FEBF8E0012731E /* StoreManager.m */,
 				3737A79318FBA7F600EFAABF /* AppDelegate.h */,
 				3737A79418FBA7F600EFAABF /* AppDelegate.m */,
 				3737A79618FBA7F600EFAABF /* Main.storyboard */,
@@ -131,7 +144,9 @@
 				3737A79F18FBA7F600EFAABF /* DetailViewController.h */,
 				3737A7A018FBA7F600EFAABF /* DetailViewController.m */,
 				3737A7A218FBA7F600EFAABF /* Images.xcassets */,
+				37472E1818FEC3740012731E /* Wishlist.xcdatamodeld */,
 				3737A79918FBA7F600EFAABF /* CoreDataSync.xcdatamodeld */,
+				3737A7C318FBBBA700EFAABF /* CoreDataSync.entitlements */,
 				3737A78B18FBA7F600EFAABF /* Supporting Files */,
 			);
 			path = CoreDataSync;
@@ -140,10 +155,10 @@
 		3737A78B18FBA7F600EFAABF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3737A78C18FBA7F600EFAABF /* CoreDataSync-Info.plist */,
+				3737A78C18FBA7F600EFAABF /* 2014-Spring-CoreDataSync-Info.plist */,
 				3737A78D18FBA7F600EFAABF /* InfoPlist.strings */,
 				3737A79018FBA7F600EFAABF /* main.m */,
-				3737A79218FBA7F600EFAABF /* CoreDataSync-Prefix.pch */,
+				3737A79218FBA7F600EFAABF /* 2014-Spring-CoreDataSync-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,7 +175,7 @@
 		3737A7B118FBA7F600EFAABF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3737A7B218FBA7F600EFAABF /* CoreDataSyncTests-Info.plist */,
+				3737A7B218FBA7F600EFAABF /* 2014-Spring-CoreDataSyncTests-Info.plist */,
 				3737A7B318FBA7F600EFAABF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -169,9 +184,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3737A77E18FBA7F600EFAABF /* CoreDataSync */ = {
+		3737A77E18FBA7F600EFAABF /* 2014-Spring-CoreDataSync */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3737A7BA18FBA7F600EFAABF /* Build configuration list for PBXNativeTarget "CoreDataSync" */;
+			buildConfigurationList = 3737A7BA18FBA7F600EFAABF /* Build configuration list for PBXNativeTarget "2014-Spring-CoreDataSync" */;
 			buildPhases = (
 				3737A77B18FBA7F600EFAABF /* Sources */,
 				3737A77C18FBA7F600EFAABF /* Frameworks */,
@@ -181,14 +196,14 @@
 			);
 			dependencies = (
 			);
-			name = CoreDataSync;
+			name = "2014-Spring-CoreDataSync";
 			productName = CoreDataSync;
-			productReference = 3737A77F18FBA7F600EFAABF /* CoreDataSync.app */;
+			productReference = 3737A77F18FBA7F600EFAABF /* 2014-Spring-CoreDataSync.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3737A7A718FBA7F600EFAABF /* CoreDataSyncTests */ = {
+		3737A7A718FBA7F600EFAABF /* 2014-Spring-CoreDataSyncTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3737A7BD18FBA7F600EFAABF /* Build configuration list for PBXNativeTarget "CoreDataSyncTests" */;
+			buildConfigurationList = 3737A7BD18FBA7F600EFAABF /* Build configuration list for PBXNativeTarget "2014-Spring-CoreDataSyncTests" */;
 			buildPhases = (
 				3737A7A418FBA7F600EFAABF /* Sources */,
 				3737A7A518FBA7F600EFAABF /* Frameworks */,
@@ -199,9 +214,9 @@
 			dependencies = (
 				3737A7AF18FBA7F600EFAABF /* PBXTargetDependency */,
 			);
-			name = CoreDataSyncTests;
+			name = "2014-Spring-CoreDataSyncTests";
 			productName = CoreDataSyncTests;
-			productReference = 3737A7A818FBA7F600EFAABF /* CoreDataSyncTests.xctest */;
+			productReference = 3737A7A818FBA7F600EFAABF /* 2014-Spring-CoreDataSyncTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -213,12 +228,20 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "The University of Chicago, Department of Computer Science";
 				TargetAttributes = {
+					3737A77E18FBA7F600EFAABF = {
+						DevelopmentTeam = R2GAZH485F;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
 					3737A7A718FBA7F600EFAABF = {
 						TestTargetID = 3737A77E18FBA7F600EFAABF;
 					};
 				};
 			};
-			buildConfigurationList = 3737A77A18FBA7F600EFAABF /* Build configuration list for PBXProject "CoreDataSync" */;
+			buildConfigurationList = 3737A77A18FBA7F600EFAABF /* Build configuration list for PBXProject "2014-Spring-CoreDataSync" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,8 +254,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3737A77E18FBA7F600EFAABF /* CoreDataSync */,
-				3737A7A718FBA7F600EFAABF /* CoreDataSyncTests */,
+				3737A77E18FBA7F600EFAABF /* 2014-Spring-CoreDataSync */,
+				3737A7A718FBA7F600EFAABF /* 2014-Spring-CoreDataSyncTests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,8 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3737A7C218FBA87800EFAABF /* StoreManagerCloud.m in Sources */,
+				37472E1718FEBF8E0012731E /* StoreManager.m in Sources */,
 				3737A7A118FBA7F600EFAABF /* DetailViewController.m in Sources */,
 				3737A79E18FBA7F600EFAABF /* MasterViewController.m in Sources */,
+				37472E1A18FEC3740012731E /* Wishlist.xcdatamodeld in Sources */,
 				3737A79518FBA7F600EFAABF /* AppDelegate.m in Sources */,
 				3737A79B18FBA7F600EFAABF /* CoreDataSync.xcdatamodeld in Sources */,
 				3737A79118FBA7F600EFAABF /* main.m in Sources */,
@@ -284,7 +310,7 @@
 /* Begin PBXTargetDependency section */
 		3737A7AF18FBA7F600EFAABF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3737A77E18FBA7F600EFAABF /* CoreDataSync */;
+			target = 3737A77E18FBA7F600EFAABF /* 2014-Spring-CoreDataSync */;
 			targetProxy = 3737A7AE18FBA7F600EFAABF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -392,10 +418,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = CoreDataSync/CoreDataSync.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoreDataSync/CoreDataSync-Prefix.pch";
-				INFOPLIST_FILE = "CoreDataSync/CoreDataSync-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "CoreDataSync/2014-Spring-CoreDataSync-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataSync/2014-Spring-CoreDataSync-Info.plist";
+				PRODUCT_NAME = "2014-Spring-CoreDataSync";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -405,10 +432,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = CoreDataSync/CoreDataSync.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoreDataSync/CoreDataSync-Prefix.pch";
-				INFOPLIST_FILE = "CoreDataSync/CoreDataSync-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "CoreDataSync/2014-Spring-CoreDataSync-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataSync/2014-Spring-CoreDataSync-Info.plist";
+				PRODUCT_NAME = "2014-Spring-CoreDataSync";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -428,8 +456,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "CoreDataSyncTests/CoreDataSyncTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "CoreDataSyncTests/2014-Spring-CoreDataSyncTests-Info.plist";
+				PRODUCT_NAME = "2014-Spring-CoreDataSyncTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -446,8 +474,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataSync/CoreDataSync-Prefix.pch";
-				INFOPLIST_FILE = "CoreDataSyncTests/CoreDataSyncTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "CoreDataSyncTests/2014-Spring-CoreDataSyncTests-Info.plist";
+				PRODUCT_NAME = "2014-Spring-CoreDataSyncTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -456,7 +484,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3737A77A18FBA7F600EFAABF /* Build configuration list for PBXProject "CoreDataSync" */ = {
+		3737A77A18FBA7F600EFAABF /* Build configuration list for PBXProject "2014-Spring-CoreDataSync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3737A7B818FBA7F600EFAABF /* Debug */,
@@ -465,21 +493,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3737A7BA18FBA7F600EFAABF /* Build configuration list for PBXNativeTarget "CoreDataSync" */ = {
+		3737A7BA18FBA7F600EFAABF /* Build configuration list for PBXNativeTarget "2014-Spring-CoreDataSync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3737A7BB18FBA7F600EFAABF /* Debug */,
 				3737A7BC18FBA7F600EFAABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3737A7BD18FBA7F600EFAABF /* Build configuration list for PBXNativeTarget "CoreDataSyncTests" */ = {
+		3737A7BD18FBA7F600EFAABF /* Build configuration list for PBXNativeTarget "2014-Spring-CoreDataSyncTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3737A7BE18FBA7F600EFAABF /* Debug */,
 				3737A7BF18FBA7F600EFAABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -491,6 +521,16 @@
 			);
 			currentVersion = 3737A79A18FBA7F600EFAABF /* CoreDataSync.xcdatamodel */;
 			path = CoreDataSync.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		37472E1818FEC3740012731E /* Wishlist.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37472E1918FEC3740012731E /* Wishlist.xcdatamodel */,
+			);
+			currentVersion = 37472E1918FEC3740012731E /* Wishlist.xcdatamodel */;
+			path = Wishlist.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

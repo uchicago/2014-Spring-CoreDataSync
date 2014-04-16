@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3737A77E18FBA7F600EFAABF"
-               BuildableName = "CoreDataSync.app"
-               BlueprintName = "CoreDataSync"
-               ReferencedContainer = "container:CoreDataSync.xcodeproj">
+               BuildableName = "2014-Spring-CoreDataSync.app"
+               BlueprintName = "2014-Spring-CoreDataSync"
+               ReferencedContainer = "container:2014-Spring-CoreDataSync.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3737A7A718FBA7F600EFAABF"
-               BuildableName = "CoreDataSyncTests.xctest"
-               BlueprintName = "CoreDataSyncTests"
-               ReferencedContainer = "container:CoreDataSync.xcodeproj">
+               BuildableName = "2014-Spring-CoreDataSyncTests.xctest"
+               BlueprintName = "2014-Spring-CoreDataSyncTests"
+               ReferencedContainer = "container:2014-Spring-CoreDataSync.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3737A77E18FBA7F600EFAABF"
-            BuildableName = "CoreDataSync.app"
-            BlueprintName = "CoreDataSync"
-            ReferencedContainer = "container:CoreDataSync.xcodeproj">
+            BuildableName = "2014-Spring-CoreDataSync.app"
+            BlueprintName = "2014-Spring-CoreDataSync"
+            ReferencedContainer = "container:2014-Spring-CoreDataSync.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,11 +62,17 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3737A77E18FBA7F600EFAABF"
-            BuildableName = "CoreDataSync.app"
-            BlueprintName = "CoreDataSync"
-            ReferencedContainer = "container:CoreDataSync.xcodeproj">
+            BuildableName = "2014-Spring-CoreDataSync.app"
+            BlueprintName = "2014-Spring-CoreDataSync"
+            ReferencedContainer = "container:2014-Spring-CoreDataSync.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-com.apple.coredata.ubiquity.logLevel 0"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3737A77E18FBA7F600EFAABF"
-            BuildableName = "CoreDataSync.app"
-            BlueprintName = "CoreDataSync"
-            ReferencedContainer = "container:CoreDataSync.xcodeproj">
+            BuildableName = "2014-Spring-CoreDataSync.app"
+            BlueprintName = "2014-Spring-CoreDataSync"
+            ReferencedContainer = "container:2014-Spring-CoreDataSync.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
